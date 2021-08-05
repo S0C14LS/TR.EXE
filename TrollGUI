@@ -1,0 +1,710 @@
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('My Computer is infected with Tr.EXE!', 'All');
+wait(0.4)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Virus Success..', 'All');
+wait(1)
+game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Denied Access! !@#.', 'All');
+
+
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Note: This is not a real virus!";
+	Text = "This is a troll script made by Socials#0908";
+	Icon = "http://www.roblox.com/asset/?id=7204765804";
+	Duration = 5;
+})
+
+
+local TrVirusSCREEN = Instance.new("ScreenGui")
+local Tr_Frame = Instance.new("Frame")
+local Tr_BottomBar = Instance.new("Frame")
+local Ok_Outline2 = Instance.new("TextLabel")
+local Ok_Button2 = Instance.new("TextButton")
+local Cancel_Outline1 = Instance.new("TextLabel")
+local Cancel_Button1 = Instance.new("TextButton")
+local Tr_TopBar = Instance.new("Frame")
+local Tr_SM = Instance.new("TextLabel")
+local X_Button = Instance.new("TextButton")
+local Tr_VirusMessage = Instance.new("TextLabel")
+local Error_Image = Instance.new("ImageLabel")
+local Tr_Frame2 = Instance.new("Frame")
+local Tr_BottomBar_2 = Instance.new("Frame")
+local Ok_Outline2_2 = Instance.new("TextLabel")
+local Ok_Button2_2 = Instance.new("TextButton")
+local Cancel_Outline1_2 = Instance.new("TextLabel")
+local Cancel_Button1_2 = Instance.new("TextButton")
+local Tr_TopBar_2 = Instance.new("Frame")
+local Tr_SM_2 = Instance.new("TextLabel")
+local X_Button_2 = Instance.new("TextButton")
+local Tr_VirusMessage_2 = Instance.new("TextLabel")
+local Error_Image_2 = Instance.new("ImageLabel")
+local Tr_Frame3 = Instance.new("Frame")
+local Tr_BottomBar_3 = Instance.new("Frame")
+local Ok_Outline2_3 = Instance.new("TextLabel")
+local Ok_Button2_3 = Instance.new("TextButton")
+local Cancel_Outline1_3 = Instance.new("TextLabel")
+local Cancel_Button1_3 = Instance.new("TextButton")
+local Tr_TopBar_3 = Instance.new("Frame")
+local Tr_SM_3 = Instance.new("TextLabel")
+local X_Button_3 = Instance.new("TextButton")
+local Tr_VirusMessage_3 = Instance.new("TextLabel")
+local Tr_Frame4 = Instance.new("Frame")
+local Tr_BottomBar_4 = Instance.new("Frame")
+local Ok_Outline2_4 = Instance.new("TextLabel")
+local Ok_Button2_4 = Instance.new("TextButton")
+local Cancel_Outline1_4 = Instance.new("TextLabel")
+local Cancel_Button1_4 = Instance.new("TextButton")
+local Tr_TopBar_4 = Instance.new("Frame")
+local Tr_SM_4 = Instance.new("TextLabel")
+local X_Button_4 = Instance.new("TextButton")
+local Tr_VirusMessage_4 = Instance.new("TextLabel")
+local Tr_BlueScreen = Instance.new("Frame")
+local WSODexe = Instance.new("ImageLabel")
+local Tr_BlueScreen2 = Instance.new("Frame")
+local WSODexe_2 = Instance.new("ImageLabel")
+
+--Properties:
+
+TrVirusSCREEN.Name = "TrVirusSCREEN"
+TrVirusSCREEN.Parent = game.CoreGui
+TrVirusSCREEN.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Tr_Frame.Name = "Tr_Frame"
+Tr_Frame.Parent = TrVirusSCREEN
+Tr_Frame.Active = true
+Tr_Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_Frame.BorderColor3 = Color3.fromRGB(47, 135, 217)
+Tr_Frame.Position = UDim2.new(0.350852281, 0, 0.392638028, 0)
+Tr_Frame.Selectable = true
+Tr_Frame.Size = UDim2.new(0, 419, 0, 174)
+
+Tr_Frame.Active = true
+Tr_Frame.Selectable = true
+Tr_Frame.Draggable = true
+
+
+
+Tr_BottomBar.Name = "Tr_BottomBar"
+Tr_BottomBar.Parent = Tr_Frame
+Tr_BottomBar.Active = true
+Tr_BottomBar.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+Tr_BottomBar.BorderSizePixel = 0
+Tr_BottomBar.Position = UDim2.new(0, 0, 0.718390822, 0)
+Tr_BottomBar.Selectable = true
+Tr_BottomBar.Size = UDim2.new(0, 419, 0, 49)
+
+Ok_Outline2.Name = "Ok_Outline2"
+Ok_Outline2.Parent = Tr_BottomBar
+Ok_Outline2.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Ok_Outline2.BorderColor3 = Color3.fromRGB(167, 167, 167)
+Ok_Outline2.Position = UDim2.new(0.425000012, 0, 0.284999996, 0)
+Ok_Outline2.Size = UDim2.new(0, 109, 0, 25)
+Ok_Outline2.Font = Enum.Font.SourceSans
+Ok_Outline2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ok_Outline2.TextSize = 1.000
+
+Ok_Button2.Name = "Ok_Button2"
+Ok_Button2.Parent = Tr_BottomBar
+Ok_Button2.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Ok_Button2.BorderSizePixel = 0
+Ok_Button2.Position = UDim2.new(0.42004776, 0, 0.26122424, 0)
+Ok_Button2.Size = UDim2.new(0, 109, 0, 25)
+Ok_Button2.Font = Enum.Font.SourceSansLight
+Ok_Button2.Text = "Ok"
+Ok_Button2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ok_Button2.TextSize = 18.000
+
+Cancel_Outline1.Name = "Cancel_Outline1"
+Cancel_Outline1.Parent = Tr_BottomBar
+Cancel_Outline1.Active = true
+Cancel_Outline1.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Cancel_Outline1.BorderColor3 = Color3.fromRGB(167, 167, 167)
+Cancel_Outline1.Position = UDim2.new(0.711000025, 0, 0.275000006, 0)
+Cancel_Outline1.Selectable = true
+Cancel_Outline1.Size = UDim2.new(0, 109, 0, 25)
+Cancel_Outline1.Font = Enum.Font.SourceSans
+Cancel_Outline1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cancel_Outline1.TextSize = 1.000
+
+Cancel_Button1.Name = "Cancel_Button1"
+Cancel_Button1.Parent = Tr_BottomBar
+Cancel_Button1.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Cancel_Button1.BorderSizePixel = 0
+Cancel_Button1.Position = UDim2.new(0.706443965, 0, 0.240816087, 0)
+Cancel_Button1.Size = UDim2.new(0, 109, 0, 25)
+Cancel_Button1.Font = Enum.Font.SourceSansLight
+Cancel_Button1.Text = "Cancel"
+Cancel_Button1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cancel_Button1.TextSize = 18.000
+
+Tr_TopBar.Name = "Tr_TopBar"
+Tr_TopBar.Parent = Tr_Frame
+Tr_TopBar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_TopBar.BorderSizePixel = 0
+Tr_TopBar.Size = UDim2.new(0, 419, 0, 31)
+
+Tr_SM.Name = "Tr_SM"
+Tr_SM.Parent = Tr_TopBar
+Tr_SM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_SM.BorderSizePixel = 0
+Tr_SM.Size = UDim2.new(0, 125, 0, 31)
+Tr_SM.Font = Enum.Font.SourceSansLight
+Tr_SM.Text = "System Message"
+Tr_SM.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tr_SM.TextSize = 18.000
+
+X_Button.Name = "X_Button"
+X_Button.Parent = Tr_TopBar
+X_Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X_Button.BorderSizePixel = 0
+X_Button.Position = UDim2.new(0.921241105, 0, 0, 0)
+X_Button.Size = UDim2.new(0, 33, 0, 31)
+X_Button.Font = Enum.Font.SourceSansLight
+X_Button.Text = "x"
+X_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
+X_Button.TextSize = 33.000
+
+Tr_VirusMessage.Name = "Tr_VirusMessage"
+Tr_VirusMessage.Parent = Tr_Frame
+Tr_VirusMessage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_VirusMessage.BorderSizePixel = 0
+
+
+Tr_VirusMessage.Position = UDim2.new(0.21002385, 0, 0.281609207, 0)
+Tr_VirusMessage.Size = UDim2.new(0, 243, 0, 50)
+Tr_VirusMessage.Font = Enum.Font.SourceSansLight
+Tr_VirusMessage.Text = "TrVirus.exe Detected As Trojan Virus!"
+Tr_VirusMessage.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tr_VirusMessage.TextSize = 18.000
+
+Error_Image.Name = "Error_Image"
+Error_Image.Parent = Tr_Frame
+Error_Image.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Error_Image.BackgroundTransparency = 1.000
+Error_Image.Position = UDim2.new(0.152744621, 0, 0.339080483, 0)
+Error_Image.Size = UDim2.new(0, 35, 0, 30)
+Error_Image.Image = "http://www.roblox.com/asset/?id=7204765798"
+
+Tr_Frame2.Name = "Tr_Frame2"
+Tr_Frame2.Parent = TrVirusSCREEN
+Tr_Frame2.Active = true
+Tr_Frame2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_Frame2.BorderColor3 = Color3.fromRGB(47, 135, 217)
+Tr_Frame2.Position = UDim2.new(0.125, 0, 0.262576699, 0)
+Tr_Frame2.Selectable = true
+Tr_Frame2.Size = UDim2.new(0, 419, 0, 174)
+Tr_Frame2.Visible = false
+
+Tr_Frame2.Active = true
+Tr_Frame2.Selectable = true
+Tr_Frame2.Draggable = true
+
+
+
+Tr_BottomBar_2.Name = "Tr_BottomBar"
+Tr_BottomBar_2.Parent = Tr_Frame2
+Tr_BottomBar_2.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+Tr_BottomBar_2.BorderSizePixel = 0
+Tr_BottomBar_2.Position = UDim2.new(0, 0, 0.718390822, 0)
+Tr_BottomBar_2.Size = UDim2.new(0, 419, 0, 49)
+
+Ok_Outline2_2.Name = "Ok_Outline2"
+Ok_Outline2_2.Parent = Tr_BottomBar_2
+Ok_Outline2_2.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Ok_Outline2_2.BorderColor3 = Color3.fromRGB(167, 167, 167)
+Ok_Outline2_2.Position = UDim2.new(0.425000012, 0, 0.284999996, 0)
+Ok_Outline2_2.Size = UDim2.new(0, 109, 0, 25)
+Ok_Outline2_2.Font = Enum.Font.SourceSans
+Ok_Outline2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ok_Outline2_2.TextSize = 1.000
+
+Ok_Button2_2.Name = "Ok_Button2"
+Ok_Button2_2.Parent = Tr_BottomBar_2
+Ok_Button2_2.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Ok_Button2_2.BorderSizePixel = 0
+Ok_Button2_2.Position = UDim2.new(0.42004776, 0, 0.26122424, 0)
+Ok_Button2_2.Size = UDim2.new(0, 109, 0, 25)
+Ok_Button2_2.Font = Enum.Font.SourceSansLight
+Ok_Button2_2.Text = "Ok"
+Ok_Button2_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ok_Button2_2.TextSize = 18.000
+
+Cancel_Outline1_2.Name = "Cancel_Outline1"
+Cancel_Outline1_2.Parent = Tr_BottomBar_2
+Cancel_Outline1_2.Active = true
+Cancel_Outline1_2.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Cancel_Outline1_2.BorderColor3 = Color3.fromRGB(167, 167, 167)
+Cancel_Outline1_2.Position = UDim2.new(0.711000025, 0, 0.275000006, 0)
+Cancel_Outline1_2.Selectable = true
+Cancel_Outline1_2.Size = UDim2.new(0, 109, 0, 25)
+Cancel_Outline1_2.Font = Enum.Font.SourceSans
+Cancel_Outline1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cancel_Outline1_2.TextSize = 1.000
+
+Cancel_Button1_2.Name = "Cancel_Button1"
+Cancel_Button1_2.Parent = Tr_BottomBar_2
+Cancel_Button1_2.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Cancel_Button1_2.BorderSizePixel = 0
+Cancel_Button1_2.Position = UDim2.new(0.706443965, 0, 0.240816087, 0)
+Cancel_Button1_2.Size = UDim2.new(0, 109, 0, 25)
+Cancel_Button1_2.Font = Enum.Font.SourceSansLight
+Cancel_Button1_2.Text = "Cancel"
+Cancel_Button1_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cancel_Button1_2.TextSize = 18.000
+
+Tr_TopBar_2.Name = "Tr_TopBar"
+Tr_TopBar_2.Parent = Tr_Frame2
+Tr_TopBar_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_TopBar_2.BorderSizePixel = 0
+Tr_TopBar_2.Size = UDim2.new(0, 419, 0, 31)
+
+Tr_SM_2.Name = "Tr_SM"
+Tr_SM_2.Parent = Tr_TopBar_2
+Tr_SM_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_SM_2.BorderSizePixel = 0
+Tr_SM_2.Size = UDim2.new(0, 125, 0, 31)
+Tr_SM_2.Font = Enum.Font.SourceSansLight
+Tr_SM_2.Text = "System Message"
+Tr_SM_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tr_SM_2.TextSize = 18.000
+
+X_Button_2.Name = "X_Button"
+X_Button_2.Parent = Tr_TopBar_2
+X_Button_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X_Button_2.BorderSizePixel = 0
+X_Button_2.Position = UDim2.new(0.921241105, 0, 0, 0)
+X_Button_2.Size = UDim2.new(0, 33, 0, 31)
+X_Button_2.Font = Enum.Font.SourceSansLight
+X_Button_2.Text = "x"
+X_Button_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+X_Button_2.TextSize = 33.000
+
+Tr_VirusMessage_2.Name = "Tr_VirusMessage"
+Tr_VirusMessage_2.Parent = Tr_Frame2
+Tr_VirusMessage_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_VirusMessage_2.BorderSizePixel = 0
+Tr_VirusMessage_2.Position = UDim2.new(0.21002385, 0, 0.281609207, 0)
+Tr_VirusMessage_2.Size = UDim2.new(0, 243, 0, 50)
+Tr_VirusMessage_2.Font = Enum.Font.SourceSansLight
+Tr_VirusMessage_2.Text = "Computer Mailfunction!"
+Tr_VirusMessage_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tr_VirusMessage_2.TextSize = 18.000
+
+Error_Image_2.Name = "Error_Image"
+Error_Image_2.Parent = Tr_Frame2
+Error_Image_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Error_Image_2.BackgroundTransparency = 1.000
+Error_Image_2.Position = UDim2.new(0.243436754, 0, 0.339080483, 0)
+Error_Image_2.Size = UDim2.new(0, 35, 0, 30)
+Error_Image_2.Image = "http://www.roblox.com/asset/?id=7204765798"
+
+Tr_Frame3.Name = "Tr_Frame3"
+Tr_Frame3.Parent = TrVirusSCREEN
+Tr_Frame3.Active = true
+Tr_Frame3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_Frame3.BorderColor3 = Color3.fromRGB(47, 135, 217)
+Tr_Frame3.Position = UDim2.new(0.573153377, 0, 0.332515359, 0)
+Tr_Frame3.Selectable = true
+Tr_Frame3.Size = UDim2.new(0, 419, 0, 174)
+Tr_Frame3.Visible = false
+
+Tr_Frame3.Active = true
+Tr_Frame3.Selectable = true
+Tr_Frame3.Draggable = true
+
+
+
+Tr_BottomBar_3.Name = "Tr_BottomBar"
+Tr_BottomBar_3.Parent = Tr_Frame3
+Tr_BottomBar_3.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+Tr_BottomBar_3.BorderSizePixel = 0
+Tr_BottomBar_3.Position = UDim2.new(0, 0, 0.718390822, 0)
+Tr_BottomBar_3.Size = UDim2.new(0, 419, 0, 49)
+
+Ok_Outline2_3.Name = "Ok_Outline2"
+Ok_Outline2_3.Parent = Tr_BottomBar_3
+Ok_Outline2_3.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Ok_Outline2_3.BorderColor3 = Color3.fromRGB(167, 167, 167)
+Ok_Outline2_3.Position = UDim2.new(0.425000012, 0, 0.284999996, 0)
+Ok_Outline2_3.Size = UDim2.new(0, 109, 0, 25)
+Ok_Outline2_3.Font = Enum.Font.SourceSans
+Ok_Outline2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ok_Outline2_3.TextSize = 1.000
+
+Ok_Button2_3.Name = "Ok_Button2"
+Ok_Button2_3.Parent = Tr_BottomBar_3
+Ok_Button2_3.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Ok_Button2_3.BorderSizePixel = 0
+Ok_Button2_3.Position = UDim2.new(0.42004776, 0, 0.26122424, 0)
+Ok_Button2_3.Size = UDim2.new(0, 109, 0, 25)
+Ok_Button2_3.Font = Enum.Font.SourceSansLight
+Ok_Button2_3.Text = "Ok"
+Ok_Button2_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ok_Button2_3.TextSize = 18.000
+
+Cancel_Outline1_3.Name = "Cancel_Outline1"
+Cancel_Outline1_3.Parent = Tr_BottomBar_3
+Cancel_Outline1_3.Active = true
+Cancel_Outline1_3.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Cancel_Outline1_3.BorderColor3 = Color3.fromRGB(167, 167, 167)
+Cancel_Outline1_3.Position = UDim2.new(0.711000025, 0, 0.275000006, 0)
+Cancel_Outline1_3.Selectable = true
+Cancel_Outline1_3.Size = UDim2.new(0, 109, 0, 25)
+Cancel_Outline1_3.Font = Enum.Font.SourceSans
+Cancel_Outline1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cancel_Outline1_3.TextSize = 1.000
+
+Cancel_Button1_3.Name = "Cancel_Button1"
+Cancel_Button1_3.Parent = Tr_BottomBar_3
+Cancel_Button1_3.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Cancel_Button1_3.BorderSizePixel = 0
+Cancel_Button1_3.Position = UDim2.new(0.706443965, 0, 0.240816087, 0)
+Cancel_Button1_3.Size = UDim2.new(0, 109, 0, 25)
+Cancel_Button1_3.Font = Enum.Font.SourceSansLight
+Cancel_Button1_3.Text = "Cancel"
+Cancel_Button1_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cancel_Button1_3.TextSize = 18.000
+
+Tr_TopBar_3.Name = "Tr_TopBar"
+Tr_TopBar_3.Parent = Tr_Frame3
+Tr_TopBar_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_TopBar_3.BorderSizePixel = 0
+Tr_TopBar_3.Size = UDim2.new(0, 419, 0, 31)
+
+Tr_SM_3.Name = "Tr_SM"
+Tr_SM_3.Parent = Tr_TopBar_3
+Tr_SM_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_SM_3.BorderSizePixel = 0
+Tr_SM_3.Size = UDim2.new(0, 125, 0, 31)
+Tr_SM_3.Font = Enum.Font.SourceSansLight
+Tr_SM_3.Text = "System Message"
+Tr_SM_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tr_SM_3.TextSize = 18.000
+
+X_Button_3.Name = "X_Button"
+X_Button_3.Parent = Tr_TopBar_3
+X_Button_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X_Button_3.BorderSizePixel = 0
+X_Button_3.Position = UDim2.new(0.921241105, 0, 0, 0)
+X_Button_3.Size = UDim2.new(0, 33, 0, 31)
+X_Button_3.Font = Enum.Font.SourceSansLight
+X_Button_3.Text = "x"
+X_Button_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+X_Button_3.TextSize = 33.000
+
+Tr_VirusMessage_3.Name = "Tr_VirusMessage"
+Tr_VirusMessage_3.Parent = Tr_Frame3
+Tr_VirusMessage_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_VirusMessage_3.BorderSizePixel = 0
+Tr_VirusMessage_3.Position = UDim2.new(0.21002385, 0, 0.281609207, 0)
+Tr_VirusMessage_3.Size = UDim2.new(0, 243, 0, 50)
+Tr_VirusMessage_3.Font = Enum.Font.SourceSansLight
+Tr_VirusMessage_3.Text = "U CANT ESCAPE ME HAHAHA !"
+Tr_VirusMessage_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tr_VirusMessage_3.TextSize = 18.000
+
+Tr_Frame4.Name = "Tr_Frame4"
+Tr_Frame4.Parent = TrVirusSCREEN
+Tr_Frame4.Active = true
+Tr_Frame4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_Frame4.BorderColor3 = Color3.fromRGB(47, 135, 217)
+Tr_Frame4.Position = UDim2.new(0.166193157, 0, 0.636809826, 0)
+Tr_Frame4.Selectable = true
+Tr_Frame4.Size = UDim2.new(0, 419, 0, 174)
+Tr_Frame4.Visible = false
+
+Tr_Frame4.Active = true
+Tr_Frame4.Selectable = true
+Tr_Frame4.Draggable = true
+
+
+
+Tr_BottomBar_4.Name = "Tr_BottomBar"
+Tr_BottomBar_4.Parent = Tr_Frame4
+Tr_BottomBar_4.BackgroundColor3 = Color3.fromRGB(223, 223, 223)
+Tr_BottomBar_4.BorderSizePixel = 0
+Tr_BottomBar_4.Position = UDim2.new(0, 0, 0.718390822, 0)
+Tr_BottomBar_4.Size = UDim2.new(0, 419, 0, 49)
+
+Ok_Outline2_4.Name = "Ok_Outline2"
+Ok_Outline2_4.Parent = Tr_BottomBar_4
+Ok_Outline2_4.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Ok_Outline2_4.BorderColor3 = Color3.fromRGB(167, 167, 167)
+Ok_Outline2_4.Position = UDim2.new(0.425000012, 0, 0.284999996, 0)
+Ok_Outline2_4.Size = UDim2.new(0, 109, 0, 25)
+Ok_Outline2_4.Font = Enum.Font.SourceSans
+Ok_Outline2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ok_Outline2_4.TextSize = 1.000
+
+Ok_Button2_4.Name = "Ok_Button2"
+Ok_Button2_4.Parent = Tr_BottomBar_4
+Ok_Button2_4.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Ok_Button2_4.BorderSizePixel = 0
+Ok_Button2_4.Position = UDim2.new(0.42004776, 0, 0.26122424, 0)
+Ok_Button2_4.Size = UDim2.new(0, 109, 0, 25)
+Ok_Button2_4.Font = Enum.Font.SourceSansLight
+Ok_Button2_4.Text = "Ok"
+Ok_Button2_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Ok_Button2_4.TextSize = 18.000
+
+Cancel_Outline1_4.Name = "Cancel_Outline1"
+Cancel_Outline1_4.Parent = Tr_BottomBar_4
+Cancel_Outline1_4.Active = true
+Cancel_Outline1_4.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Cancel_Outline1_4.BorderColor3 = Color3.fromRGB(167, 167, 167)
+Cancel_Outline1_4.Position = UDim2.new(0.711000025, 0, 0.275000006, 0)
+Cancel_Outline1_4.Selectable = true
+Cancel_Outline1_4.Size = UDim2.new(0, 109, 0, 25)
+Cancel_Outline1_4.Font = Enum.Font.SourceSans
+Cancel_Outline1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cancel_Outline1_4.TextSize = 1.000
+
+Cancel_Button1_4.Name = "Cancel_Button1"
+Cancel_Button1_4.Parent = Tr_BottomBar_4
+Cancel_Button1_4.BackgroundColor3 = Color3.fromRGB(231, 231, 231)
+Cancel_Button1_4.BorderSizePixel = 0
+Cancel_Button1_4.Position = UDim2.new(0.706443965, 0, 0.240816087, 0)
+Cancel_Button1_4.Size = UDim2.new(0, 109, 0, 25)
+Cancel_Button1_4.Font = Enum.Font.SourceSansLight
+Cancel_Button1_4.Text = "Cancel"
+Cancel_Button1_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Cancel_Button1_4.TextSize = 18.000
+
+Tr_TopBar_4.Name = "Tr_TopBar"
+Tr_TopBar_4.Parent = Tr_Frame4
+Tr_TopBar_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_TopBar_4.BorderSizePixel = 0
+Tr_TopBar_4.Size = UDim2.new(0, 419, 0, 31)
+
+Tr_SM_4.Name = "Tr_SM"
+Tr_SM_4.Parent = Tr_TopBar_4
+Tr_SM_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_SM_4.BorderSizePixel = 0
+Tr_SM_4.Size = UDim2.new(0, 125, 0, 31)
+Tr_SM_4.Font = Enum.Font.SourceSansLight
+Tr_SM_4.Text = "System Message"
+Tr_SM_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tr_SM_4.TextSize = 18.000
+
+X_Button_4.Name = "X_Button"
+X_Button_4.Parent = Tr_TopBar_4
+X_Button_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+X_Button_4.BorderSizePixel = 0
+X_Button_4.Position = UDim2.new(0.921241105, 0, 0, 0)
+X_Button_4.Size = UDim2.new(0, 33, 0, 31)
+X_Button_4.Font = Enum.Font.SourceSansLight
+X_Button_4.Text = "x"
+X_Button_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+X_Button_4.TextSize = 33.000
+
+Tr_VirusMessage_4.Name = "Tr_VirusMessage"
+Tr_VirusMessage_4.Parent = Tr_Frame4
+Tr_VirusMessage_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_VirusMessage_4.BorderSizePixel = 0
+Tr_VirusMessage_4.Position = UDim2.new(0.21002385, 0, 0.281609207, 0)
+Tr_VirusMessage_4.Size = UDim2.new(0, 243, 0, 50)
+Tr_VirusMessage_4.Font = Enum.Font.SourceSansLight
+Tr_VirusMessage_4.Text = "deleting system 32.."
+Tr_VirusMessage_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tr_VirusMessage_4.TextSize = 18.000
+
+Tr_BlueScreen.Name = "Tr_BlueScreen"
+Tr_BlueScreen.Parent = TrVirusSCREEN
+Tr_BlueScreen.Active = true
+Tr_BlueScreen.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_BlueScreen.Selectable = true
+Tr_BlueScreen.Size = UDim2.new(0, 1408, 0, 815)
+Tr_BlueScreen.Visible = false
+
+WSODexe.Name = "WSOD.exe"
+WSODexe.Parent = Tr_BlueScreen
+WSODexe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WSODexe.Size = UDim2.new(0, 1408, 0, 815)
+WSODexe.Image = "http://www.roblox.com/asset/?id=6773898939"
+
+Tr_BlueScreen2.Name = "Tr_BlueScreen2"
+Tr_BlueScreen2.Parent = TrVirusSCREEN
+Tr_BlueScreen2.Active = true
+Tr_BlueScreen2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tr_BlueScreen2.BorderSizePixel = 0
+Tr_BlueScreen2.Selectable = true
+Tr_BlueScreen2.Size = UDim2.new(0, 1408, 0, 815)
+Tr_BlueScreen2.Visible = false
+
+WSODexe_2.Name = "WSOD.exe"
+WSODexe_2.Parent = Tr_BlueScreen2
+WSODexe_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WSODexe_2.BorderSizePixel = 0
+WSODexe_2.Size = UDim2.new(0, 1408, 0, 815)
+WSODexe_2.Image = "http://www.roblox.com/asset/?id=902447549"
+
+-- Scripts:
+
+local function UZXC_fake_script() -- Ok_Button2.SF_V 
+	local script = Instance.new('LocalScript', Ok_Button2)
+
+	local Second_Frame = script.Parent.Parent.Parent.Parent.Tr_Frame2
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		Second_Frame.Visible = true
+	end)
+end
+coroutine.wrap(UZXC_fake_script)()
+local function KKMIQ_fake_script() -- Cancel_Button1.BLUESCREEN_SCRIPT 
+	local script = Instance.new('LocalScript', Cancel_Button1)
+
+	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		TURNON_BLUESCREEN.Visible = true
+		wait(5)
+		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
+	end)
+end
+coroutine.wrap(KKMIQ_fake_script)()
+local function AOOEE_fake_script() -- X_Button.BLUESCREEN_SCRIPT 
+	local script = Instance.new('LocalScript', X_Button)
+
+	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		TURNON_BLUESCREEN.Visible = true
+		wait(5)
+		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
+	end)
+end
+coroutine.wrap(AOOEE_fake_script)()
+local function YPUNN_fake_script() -- Tr_Frame.SystemMessage_Play 
+	local script = Instance.new('LocalScript', Tr_Frame)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Sound:Play()
+	end)
+end
+coroutine.wrap(YPUNN_fake_script)()
+local function LLVKR_fake_script() -- Ok_Button2_2.TF_V 
+	local script = Instance.new('LocalScript', Ok_Button2_2)
+
+	local Third_Frame = script.Parent.Parent.Parent.Parent.Tr_Frame3
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		Third_Frame.Visible = true
+	end)
+end
+coroutine.wrap(LLVKR_fake_script)()
+local function MCLU_fake_script() -- Cancel_Button1_2.BLUESCREEN_SCRIPT 
+	local script = Instance.new('LocalScript', Cancel_Button1_2)
+
+	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		TURNON_BLUESCREEN.Visible = true
+		wait(5)
+		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
+	end)
+end
+coroutine.wrap(MCLU_fake_script)()
+local function ZIQIB_fake_script() -- X_Button_2.BLUESCREEN_SCRIPT 
+	local script = Instance.new('LocalScript', X_Button_2)
+
+	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		TURNON_BLUESCREEN.Visible = true
+		wait(5)
+		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
+	end)
+end
+coroutine.wrap(ZIQIB_fake_script)()
+local function UHVKSQ_fake_script() -- Tr_Frame2.SystemMessage_Play 
+	local script = Instance.new('LocalScript', Tr_Frame2)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Sound:Play()
+	end)
+end
+coroutine.wrap(UHVKSQ_fake_script)()
+local function EKIBMNQ_fake_script() -- Ok_Button2_3.FF_V 
+	local script = Instance.new('LocalScript', Ok_Button2_3)
+
+	local FourthFrame = script.Parent.Parent.Parent.Parent.Tr_Frame4
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		FourthFrame.Visible = true
+	end)
+end
+coroutine.wrap(EKIBMNQ_fake_script)()
+local function EFSJEUS_fake_script() -- Cancel_Button1_3.BLUESCREEN_SCRIPT 
+	local script = Instance.new('LocalScript', Cancel_Button1_3)
+
+	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		TURNON_BLUESCREEN.Visible = true
+		wait(5)
+		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
+	end)
+end
+coroutine.wrap(EFSJEUS_fake_script)()
+local function STYO_fake_script() -- X_Button_3.BLUESCREEN_SCRIPT 
+	local script = Instance.new('LocalScript', X_Button_3)
+
+	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		TURNON_BLUESCREEN.Visible = true
+		wait(5)
+		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
+	end)
+end
+coroutine.wrap(STYO_fake_script)()
+local function VDMSK_fake_script() -- Tr_Frame3.SystemMessage_Play 
+	local script = Instance.new('LocalScript', Tr_Frame3)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Sound:Play()
+	end)
+end
+coroutine.wrap(VDMSK_fake_script)()
+local function BUXRA_fake_script() -- Ok_Button2_4.BLUESCREEN_SCRIPT 
+	local script = Instance.new('LocalScript', Ok_Button2_4)
+
+	local BLUESCREEN_ACTIVATE = script.Parent.Parent.Parent.Parent.Tr_BlueScreen2
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		BLUESCREEN_ACTIVATE.Visible = true
+		wait(5)
+		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
+	end)
+end
+coroutine.wrap(BUXRA_fake_script)()
+local function VUVW_fake_script() -- Cancel_Button1_4.BLUESCREEN_SCRIPT 
+	local script = Instance.new('LocalScript', Cancel_Button1_4)
+
+	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		TURNON_BLUESCREEN.Visible = true
+		wait(5)
+		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
+	end)
+end
+coroutine.wrap(VUVW_fake_script)()
+local function TIGDF_fake_script() -- X_Button_4.BLUESCREEN_SCRIPT 
+	local script = Instance.new('LocalScript', X_Button_4)
+
+	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		TURNON_BLUESCREEN.Visible = true
+		wait(5)
+		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
+	end)
+end
+coroutine.wrap(TIGDF_fake_script)()
+local function JECQXI_fake_script() -- Tr_Frame4.SystemMessage_Play 
+	local script = Instance.new('LocalScript', Tr_Frame4)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Sound:Play()
+	end)
+end
+coroutine.wrap(JECQXI_fake_script)()
