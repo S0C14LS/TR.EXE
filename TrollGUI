@@ -1,10 +1,3 @@
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('My Computer is infected with Tr.EXE!', 'All');
-wait(0.4)
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Virus Success..', 'All');
-wait(1)
-game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('Denied Access! !@#.', 'All');
-
-
 game.StarterGui:SetCore("SendNotification", {
 	Title = "Note: This is not a real virus!";
 	Text = "This is a troll script made by Socials#0908";
@@ -64,7 +57,7 @@ local WSODexe_2 = Instance.new("ImageLabel")
 --Properties:
 
 TrVirusSCREEN.Name = "TrVirusSCREEN"
-TrVirusSCREEN.Parent = game.CoreGui
+TrVirusSCREEN.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 TrVirusSCREEN.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Tr_Frame.Name = "Tr_Frame"
@@ -538,7 +531,7 @@ WSODexe_2.Image = "http://www.roblox.com/asset/?id=902447549"
 
 -- Scripts:
 
-local function UZXC_fake_script() -- Ok_Button2.SF_V 
+local function TKMOE_fake_script() -- Ok_Button2.SF_V 
 	local script = Instance.new('LocalScript', Ok_Button2)
 
 	local Second_Frame = script.Parent.Parent.Parent.Parent.Tr_Frame2
@@ -547,8 +540,8 @@ local function UZXC_fake_script() -- Ok_Button2.SF_V
 		Second_Frame.Visible = true
 	end)
 end
-coroutine.wrap(UZXC_fake_script)()
-local function KKMIQ_fake_script() -- Cancel_Button1.BLUESCREEN_SCRIPT 
+coroutine.wrap(TKMOE_fake_script)()
+local function UPMETVO_fake_script() -- Cancel_Button1.BLUESCREEN_SCRIPT 
 	local script = Instance.new('LocalScript', Cancel_Button1)
 
 	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
@@ -559,8 +552,8 @@ local function KKMIQ_fake_script() -- Cancel_Button1.BLUESCREEN_SCRIPT
 		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
 	end)
 end
-coroutine.wrap(KKMIQ_fake_script)()
-local function AOOEE_fake_script() -- X_Button.BLUESCREEN_SCRIPT 
+coroutine.wrap(UPMETVO_fake_script)()
+local function MOODWU_fake_script() -- X_Button.BLUESCREEN_SCRIPT 
 	local script = Instance.new('LocalScript', X_Button)
 
 	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
@@ -571,16 +564,16 @@ local function AOOEE_fake_script() -- X_Button.BLUESCREEN_SCRIPT
 		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
 	end)
 end
-coroutine.wrap(AOOEE_fake_script)()
-local function YPUNN_fake_script() -- Tr_Frame.SystemMessage_Play 
+coroutine.wrap(MOODWU_fake_script)()
+local function ADVR_fake_script() -- Tr_Frame.SystemMessage_Play 
 	local script = Instance.new('LocalScript', Tr_Frame)
 
 	script.Parent.MouseEnter:Connect(function()
 		script.Sound:Play()
 	end)
 end
-coroutine.wrap(YPUNN_fake_script)()
-local function LLVKR_fake_script() -- Ok_Button2_2.TF_V 
+coroutine.wrap(ADVR_fake_script)()
+local function URMZEU_fake_script() -- Ok_Button2_2.TF_V 
 	local script = Instance.new('LocalScript', Ok_Button2_2)
 
 	local Third_Frame = script.Parent.Parent.Parent.Parent.Tr_Frame3
@@ -589,8 +582,8 @@ local function LLVKR_fake_script() -- Ok_Button2_2.TF_V
 		Third_Frame.Visible = true
 	end)
 end
-coroutine.wrap(LLVKR_fake_script)()
-local function MCLU_fake_script() -- Cancel_Button1_2.BLUESCREEN_SCRIPT 
+coroutine.wrap(URMZEU_fake_script)()
+local function YJYS_fake_script() -- Cancel_Button1_2.BLUESCREEN_SCRIPT 
 	local script = Instance.new('LocalScript', Cancel_Button1_2)
 
 	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
@@ -601,8 +594,8 @@ local function MCLU_fake_script() -- Cancel_Button1_2.BLUESCREEN_SCRIPT
 		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
 	end)
 end
-coroutine.wrap(MCLU_fake_script)()
-local function ZIQIB_fake_script() -- X_Button_2.BLUESCREEN_SCRIPT 
+coroutine.wrap(YJYS_fake_script)()
+local function MFUPFM_fake_script() -- X_Button_2.BLUESCREEN_SCRIPT 
 	local script = Instance.new('LocalScript', X_Button_2)
 
 	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
@@ -613,16 +606,16 @@ local function ZIQIB_fake_script() -- X_Button_2.BLUESCREEN_SCRIPT
 		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
 	end)
 end
-coroutine.wrap(ZIQIB_fake_script)()
-local function UHVKSQ_fake_script() -- Tr_Frame2.SystemMessage_Play 
+coroutine.wrap(MFUPFM_fake_script)()
+local function LOCNS_fake_script() -- Tr_Frame2.SystemMessage_Play 
 	local script = Instance.new('LocalScript', Tr_Frame2)
 
 	script.Parent.MouseEnter:Connect(function()
 		script.Sound:Play()
 	end)
 end
-coroutine.wrap(UHVKSQ_fake_script)()
-local function EKIBMNQ_fake_script() -- Ok_Button2_3.FF_V 
+coroutine.wrap(LOCNS_fake_script)()
+local function WKCBC_fake_script() -- Ok_Button2_3.FF_V 
 	local script = Instance.new('LocalScript', Ok_Button2_3)
 
 	local FourthFrame = script.Parent.Parent.Parent.Parent.Tr_Frame4
@@ -631,8 +624,8 @@ local function EKIBMNQ_fake_script() -- Ok_Button2_3.FF_V
 		FourthFrame.Visible = true
 	end)
 end
-coroutine.wrap(EKIBMNQ_fake_script)()
-local function EFSJEUS_fake_script() -- Cancel_Button1_3.BLUESCREEN_SCRIPT 
+coroutine.wrap(WKCBC_fake_script)()
+local function EPWRE_fake_script() -- Cancel_Button1_3.BLUESCREEN_SCRIPT 
 	local script = Instance.new('LocalScript', Cancel_Button1_3)
 
 	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
@@ -643,8 +636,8 @@ local function EFSJEUS_fake_script() -- Cancel_Button1_3.BLUESCREEN_SCRIPT
 		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
 	end)
 end
-coroutine.wrap(EFSJEUS_fake_script)()
-local function STYO_fake_script() -- X_Button_3.BLUESCREEN_SCRIPT 
+coroutine.wrap(EPWRE_fake_script)()
+local function QZKGJHY_fake_script() -- X_Button_3.BLUESCREEN_SCRIPT 
 	local script = Instance.new('LocalScript', X_Button_3)
 
 	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
@@ -655,28 +648,33 @@ local function STYO_fake_script() -- X_Button_3.BLUESCREEN_SCRIPT
 		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
 	end)
 end
-coroutine.wrap(STYO_fake_script)()
-local function VDMSK_fake_script() -- Tr_Frame3.SystemMessage_Play 
+coroutine.wrap(QZKGJHY_fake_script)()
+local function LNMEJ_fake_script() -- Tr_Frame3.SystemMessage_Play 
 	local script = Instance.new('LocalScript', Tr_Frame3)
 
 	script.Parent.MouseEnter:Connect(function()
 		script.Sound:Play()
 	end)
 end
-coroutine.wrap(VDMSK_fake_script)()
-local function BUXRA_fake_script() -- Ok_Button2_4.BLUESCREEN_SCRIPT 
+coroutine.wrap(LNMEJ_fake_script)()
+local function HJNJ_fake_script() -- Ok_Button2_4.BLUESCREEN_SCRIPT 
 	local script = Instance.new('LocalScript', Ok_Button2_4)
 
 	local BLUESCREEN_ACTIVATE = script.Parent.Parent.Parent.Parent.Tr_BlueScreen2
 	
 	script.Parent.MouseButton1Down:Connect(function()
+		
 		BLUESCREEN_ACTIVATE.Visible = true
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('My Computer is infected with Tr.EXE!', 'All');
+		wait(0.4)
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer('SOMEONE HELP', 'All');
+		
 		wait(5)
 		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
 	end)
 end
-coroutine.wrap(BUXRA_fake_script)()
-local function VUVW_fake_script() -- Cancel_Button1_4.BLUESCREEN_SCRIPT 
+coroutine.wrap(HJNJ_fake_script)()
+local function OJEIXPY_fake_script() -- Cancel_Button1_4.BLUESCREEN_SCRIPT 
 	local script = Instance.new('LocalScript', Cancel_Button1_4)
 
 	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
@@ -687,8 +685,8 @@ local function VUVW_fake_script() -- Cancel_Button1_4.BLUESCREEN_SCRIPT
 		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
 	end)
 end
-coroutine.wrap(VUVW_fake_script)()
-local function TIGDF_fake_script() -- X_Button_4.BLUESCREEN_SCRIPT 
+coroutine.wrap(OJEIXPY_fake_script)()
+local function UNQFXL_fake_script() -- X_Button_4.BLUESCREEN_SCRIPT 
 	local script = Instance.new('LocalScript', X_Button_4)
 
 	local TURNON_BLUESCREEN = script.Parent.Parent.Parent.Parent.Tr_BlueScreen
@@ -699,12 +697,12 @@ local function TIGDF_fake_script() -- X_Button_4.BLUESCREEN_SCRIPT
 		game:GetService("Players").LocalPlayer:Kick("Please Login to play Roblox")
 	end)
 end
-coroutine.wrap(TIGDF_fake_script)()
-local function JECQXI_fake_script() -- Tr_Frame4.SystemMessage_Play 
+coroutine.wrap(UNQFXL_fake_script)()
+local function AUWBTD_fake_script() -- Tr_Frame4.SystemMessage_Play 
 	local script = Instance.new('LocalScript', Tr_Frame4)
 
 	script.Parent.MouseEnter:Connect(function()
 		script.Sound:Play()
 	end)
 end
-coroutine.wrap(JECQXI_fake_script)()
+coroutine.wrap(AUWBTD_fake_script)()
